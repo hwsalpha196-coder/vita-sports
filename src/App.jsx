@@ -314,7 +314,7 @@ export default function App() {
         <main style={{ maxWidth: 1200, margin: "0 auto", padding: "3rem 2rem" }}>
           <div style={{ marginBottom: "2.5rem" }}>
             <h1 style={{ fontSize: "clamp(1.8rem,4vw,2.8rem)", fontWeight: 800, letterSpacing: "-1px", marginBottom: "0.5rem" }}>Tienda</h1>
-            <p style={{ color: "#555", fontSize: 15 }}>Artículos deportivos disponibles para entrega inmediata en Tijuana</p>
+            <p style={{ color: "#555", fontSize: 15 }}>Artículos deportivos con envíos a todo el país</p>
           </div>
 
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: "2.5rem" }}>
@@ -485,7 +485,7 @@ export default function App() {
       )}
 
       <footer style={{ borderTop: "1px solid #111", padding: "2rem", textAlign: "center" }}>
-        <p style={{ color: "#333", fontSize: 13 }}>© 2025 Vita Sports · Tijuana, B.C. · <a href={`https://wa.me/${WA}`} style={{ color: "#25D366", textDecoration: "none" }}>WhatsApp</a></p>
+        <p style={{ color: "#333", fontSize: 13 }}>© 2025 Vita Sports · Ensenada, B.C. · <a href={`https://wa.me/${WA}`} style={{ color: "#25D366", textDecoration: "none" }}>WhatsApp</a></p>
       </footer>
     </div>
   );
