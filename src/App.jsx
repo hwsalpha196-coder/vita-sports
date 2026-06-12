@@ -193,7 +193,7 @@ export default function App() {
             <div style={{ width: 38, height: 38, background: "#D4FF00", borderRadius: 8, display: "none", alignItems: "center", justifyContent: "center", fontSize: 20, fontWeight: 800, color: "#000" }}>V</div>
             <div>
               <p style={{ fontWeight: 800, fontSize: 17, letterSpacing: "-0.5px", margin: 0 }}>Vita Sports</p>
-              <p style={{ fontSize: 11, color: "#555", margin: 0, letterSpacing: "0.5px", display: "none" }}>ENSENADA · ARTÍCULOS DEPORTIVOS</p>
+              <p style={{ fontSize: 11, color: "#555", margin: 0, letterSpacing: "0.5px", display: "none" }}>ARTÍCULOS DEPORTIVOS</p>
             </div>
           </div>
           <nav style={{ display: "flex", gap: 4, alignItems: "center" }}>
