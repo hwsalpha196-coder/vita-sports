@@ -14,11 +14,11 @@ const PRODUCTS = [
     desc: "Maleta de lona resistente con compartimento para zapatos y bolsillos laterales.",
     sizes: [],
     variants: [
-      { label: "Dodgers", color: "#003DA5", img: img(600, 600, "Maleta Dodgers", "003DA5", "ffffff") },
-      { label: "Diablos Rojos", color: "#C8102E", img: img(600, 600, "Maleta Diablos", "C8102E", "ffffff") },
-      { label: "Padres", color: "#2F241D", img: img(600, 600, "Maleta Padres", "2F241D", "FFC425") },
-    ],
-    price: 650,
+  { label: "Dodgers", color: "#003DA5", img: "/images/maleta-dodgers.png" },
+  { label: "Diablos Rojos", color: "#C8102E", img: "/images/maleta-diablos.png" },
+  { label: "Padres", color: "#2F241D", img: "/images/maleta-padres.png" },
+],
+    price: 950,
   },
   {
     id: 2, name: "Guanteletas", category: "Guanteletas",
@@ -193,7 +193,7 @@ export default function App() {
             <div style={{ width: 38, height: 38, background: "#D4FF00", borderRadius: 8, display: "none", alignItems: "center", justifyContent: "center", fontSize: 20, fontWeight: 800, color: "#000" }}>V</div>
             <div>
               <p style={{ fontWeight: 800, fontSize: 17, letterSpacing: "-0.5px", margin: 0 }}>Vita Sports</p>
-              <p style={{ fontSize: 11, color: "#555", margin: 0, letterSpacing: "0.5px" }}>TIJUANA · ARTÍCULOS DEPORTIVOS</p>
+              <p style={{ fontSize: 11, color: "#555", margin: 0, letterSpacing: "0.5px" }}>ENSENADA · ARTÍCULOS DEPORTIVOS</p>
             </div>
           </div>
           <nav style={{ display: "flex", gap: 4, alignItems: "center" }}>
