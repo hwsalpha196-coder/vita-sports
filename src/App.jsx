@@ -192,7 +192,7 @@ export default function App() {
             <img src="/Logo.png" alt="Logo" style={{ width: 38, height: 38, objectFit: "contain", borderRadius: 8 }} />
             <div style={{ width: 38, height: 38, background: "#D4FF00", borderRadius: 8, display: "none", alignItems: "center", justifyContent: "center", fontSize: 20, fontWeight: 800, color: "#000" }}>V</div>
             <div>
-              <p style={{ fontWeight: 800, fontSize: 17, letterSpacing: "-0.5px", margin: 0 }}>Vita Sports</p>
+              <p onClick={() => { setSection("tienda"); window.scrollTo({ top: 0, behavior: "smooth" }); }} style={{ fontWeight: 800, fontSize: 17, letterSpacing: "-0.5px", margin: 0, cursor: "pointer" }}>Vita Sports</p>
               <p style={{ fontSize: 11, color: "#555", margin: 0, letterSpacing: "0.5px", display: "none" }}>ARTÍCULOS DEPORTIVOS</p>
             </div>
           </div>
